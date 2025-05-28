@@ -40,3 +40,260 @@ h1 {
     font-size: 30px;
     color: black;
 }
+footer{
+    background-color: black;
+
+}
+#design-experience {
+    background-color: #262626;
+    color: #f0f0f0;
+    min-height: 300px;
+    padding-top: 40px;
+    padding-left: 40px;
+    
+}
+
+#design-experience h1 {
+    font-size: 38px;
+    margin-bottom: 10px;
+    color: #fff;
+    font-family: noto serif;
+}
+
+.event-footer {
+    background-color: #262626;
+    padding: 40px 60px;
+    color: #f0f0f0;
+}
+
+.footer-content-wrapper {
+    display: flex;
+    gap: 30px; 
+    margin-bottom: 10px;
+}
+
+.footer-column {
+    flex: 1; 
+    min-width: 100px; 
+}
+
+.footer-column h2 {
+    font-size: 1.2em;
+    margin-bottom: 15px;
+    color: #fff;
+    font-weight: normal; /* As seen in the image, headings are not bold */
+}
+
+.footer-column p {
+    font-size: 0.95em;
+    line-height: 1.6;
+    color: #b0b0b0; 
+}
+
+/* Specific styling for the Get Tickets button column */
+.cta-button-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; 
+    min-width: 150px; 
+}
+
+.get-tickets-btn {
+    background-color: #007bff; /* Blue button color */
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.get-tickets-btn:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+.footer-bottom {
+    text-align: center;
+    padding-top: 20px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1); 
+    font-size: 0.85em;
+    color: #888;
+}
+
+/* Responsive adjustments */
+@media (max-width: 992px) {
+    .event-footer {
+        padding: 30px 40px;
+    }
+    .footer-content-wrapper {
+        gap: 10px;
+    }
+    .footer-column {
+        flex: 1 1 calc(50% - 20px); 
+        max-width: none; 
+    }
+    .cta-button-container {
+        flex: 1 1 100%; 
+        justify-content: center; 
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 500px) 
+    
+    
+    
+    .footer-content-wrapper {
+        flex-direction: column; 
+        align-items: flex-start; 
+        gap: 25px;
+    }
+    .footer-column {
+        flex: 1 1 100%; /
+  
+    #design-experience {
+        padding: 40px 20px;
+    }
+    #design-experience h1 {
+        font-size: 2.2em;
+    }
+    .event-footer {
+        padding: 20px 15px;
+    }
+    .footer-column h2 {
+        font-size: 1.1em;
+    }
+    .footer-column p {
+        font-size: 0.9em;
+    }
+    .get-tickets-btn {
+        padding: 10px 20px;
+        font-size: 0.9em;
+    }
+}
+.page-header {
+    height: 60px;
+    background-color: #fff;
+    border-bottom: 1px solid #eee;
+}
+.event-hero-section {
+    background-color: #fff;
+    padding: 40px 60px;
+    max-width: 1200px;
+    margin: 20px auto;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    border-radius: 8px;
+}
+.event-header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 40px;
+}
+.event-titles {
+    flex-basis:70% ;
+}
+.main-title {
+    font-size: 48px;
+    font-family: noto serif;
+    color: #333;
+}
+.subtitle {
+    font-size: 26px;
+    font-family: noto serif;
+    color: #666;
+}
+.event-meta {
+    text-align: right;
+    flex-basis: 30%;
+    color: #555;
+    font-size: 1em;
+
+}
+.event-meta .date {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.event-content-media {
+    position: relative;
+}
+.media-placeholder {
+    width: 100%;
+    background-color: #eee;
+    height: 450px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+.event-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+.about {
+  justify-content: space-between;
+  display: flex;
+  padding: 60px 80px;
+  max-width: 1200px;
+  margin: 40px auto;
+  gap:60px ;
+}
+.column-left
+.column-right{
+    flex: 1;
+    min-width: 300px;
+}
+.section-title {
+    font-size: 2.5em;
+    color:#333;
+    margin-bottom: 40px;
+
+}
+.event {
+  justify-content: space-between;
+  display: flex;
+  
+}
+.schedule {
+  background-color: #f0f6ff;
+   padding-left: 30px;
+ padding-right: 30px;
+}
+.time {
+  color:#116dff
+}
+.first-timeline, .second-timeline {
+justify-content: space-between;
+  display: flex;  
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.meet {
+  padding-left: 30px;
+ padding-right: 30px;
+}
+.speakers, .speaker-images {
+  justify-content: space-between;
+  display: flex;
+}
+.organisers {
+  padding-left: 30px;
+ padding-right: 30px;
+ background-color: #f0f6ff;
+}
+.org-content {
+justify-content: space-between;
+  display: flex;
+  
+}
+.logo {
+  padding-left: 30px;
+ padding-right: 30px;
+ 
+}
+.sponsors {
+  justify-items: center;
+  padding-left: 30px;
+ padding-right: 30px;
+}
